@@ -1,13 +1,69 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f1f5f8;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+article {
+  width: 50%;
+  border-radius: 4px;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 2px 3px 7px #bcccdc;
+}
+img {
+  /* position: absolute; */
+  width: 100%;
+  /* height: 450px; */
+  object-fit: cover;
+  height: 350px;
+  border-radius: 4px 4px 0 0;
+}
+
+footer {
+  padding: 1.5rem 2rem;
+}
+
+.price {
+  background: #ebf7ff;
+  color: #49a6e9;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.tour-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  color: #bb2525;
+  background: #fff;
+  border: 1px solid #bb2525;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  display: block;
+}
+
+.more-less-btn {
+  color: #49a6e9;
+  border: none;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
 }
